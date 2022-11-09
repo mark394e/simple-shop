@@ -30,11 +30,22 @@ img {
 .ProductList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
+  gap: 1rem;
 }
 .Product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  h2 {
+    height: 30px;
+  }
+
+  button {
+    height: 50px;
+    width: 200px;
+  }
 }
 .Basket {
 }

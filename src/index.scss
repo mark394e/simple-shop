@@ -15,6 +15,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .App {
   display: grid;
   grid-template-columns: auto 200px;
@@ -26,6 +31,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .Product {
 }
